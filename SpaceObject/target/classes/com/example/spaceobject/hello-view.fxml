@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spaceobject.HelloController">
+    <children>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#pridajPlanetu" text="Pridaj planétu" />
+        <Button layoutX="110.0" layoutY="14.0" mnemonicParsing="false" onAction="#pridajAsteroid" text="Pridaj asteroid" />
+        <Button layoutX="207.0" layoutY="14.0" mnemonicParsing="false" onAction="#pridajSatelit" text="Pridaj satelit" />
+        <Button layoutX="300.0" layoutY="14.0" mnemonicParsing="false" onAction="#zafarbiAsteroidy" text="Asteroidy načerveno" />
+        <Button layoutX="440.0" layoutY="14.0" mnemonicParsing="false" onAction="#posunSatelity" text="Satelity doprava o 20 px" />
+    </children>
+</Pane>
